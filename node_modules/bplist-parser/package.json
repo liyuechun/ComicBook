@@ -1,0 +1,23 @@
+{
+  "name": "bplist-parser",
+  "version": "0.0.6",
+  "description": "Binary plist parser.",
+  "main": "bplistParser.js",
+  "scripts": {
+    "test": "./node_modules/nodeunit/bin/nodeunit test"
+  },
+  "keywords": [
+    "bplist",
+    "plist",
+    "parser"
+  ],
+  "author": "Joe Ferner <joe.ferner@nearinfinity.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodeunit": "~0.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nearinfinity/node-bplist-parser.git"
+  }
+}

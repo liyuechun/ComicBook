@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_e4f97e0e944b001d8ae4685967bbbd596a252f92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_015abe072485c7961679b108f812a1b447a06dfb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_6e399bd07fe08a82330c62f86cda892998a72d5d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_24786255578e0caba888c2ff4f9412af6e1353a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_42e59a676f466fff733bf202525551b2dc846609.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dd7e9e4044d541b253c526294b9f4985029d846c">
+        <dex dex="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.43.2_4cf696d1bc2001f8b970793b9b69506c0cf7ae25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_b516ea77d66336f88c95dc9da1fd8cba30fc9cad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_e111e62e84eba59e1938051b3ab74ed2c0a559fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_93baec58110f179f1168fa7515b17d4c5dad32dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_1a4c382692ee5e9543da58b607a67bb526e60696.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_202bb54ad0cd5eec99d47c06d0320fd1058f4930.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.2/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_ea1363a0109c85de1cf30e5e8f548da06fef912c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_63d80912f9d5cb34fa9d185c265423ed4831f038.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dd7e9e4044d541b253c526294b9f4985029d846c">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.43.2_91654036451d9aa0ca5b3421e991f01b9b373fdb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_6d00fd19619b9f210eb4a1abdec7e48785cdebdb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_4b0421a359373f12c2e14f6a0be82bb042bd9c8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_0d0231b7b6d3a21c6718b8659aee896be2668b50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_5cb7d22d1b6ff1bcb5afc28f761c9f128317ee61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_01147d00d3475bf9bca761f78e34cde7913f4b10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.2/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_101aeb34c8fbe6f1471abd23419f65a2ab5b450c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_b697e034eaf51520d0a37ed52a9e6ab8c4dc0db7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_89d8b66fa9e20ff894803d65c0bef2047771b093.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_9d59dd047b805edf4c22b0b6c817fdfa7ad5d71f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_0de6fba34029a4bb97d18d329627b8502156b3b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_7fee6bd36606f5cc7636dcf5b7cfe0db62a587ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_4a0a3ec457466dd24a9e19d1a26154e1f6782ff4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_021a01ec74830d184bb50e33043a930ba8cd9362.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/usr/local/opt/android-sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_cff744a20a183c3ee3bde7040286b1eb5bb3626e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_78a41c5f1d4a0efb7450425d47a147540a81e653.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_4dd4edd0ed55eb8b3fd984c2c47aecece7825dc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_84c4beadba0bad8897eee473f6463298ac5a0a7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_5d9b24844273072ff8892c5015a7e9bc03af94ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_0aeab0fa157ebcc09359f749c5bf993e11516f93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_60a8b264d6a74634cc1b1a6228d5348d3096d92d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_00b9b49f2d75909af7a44518d9df415cf55b2786.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_c0ff1396766d1c10d4eb34ed034c1f3f510b2c0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_23b95095959e58d4af745393a92805fb8adec198.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_7cdda5ebfc17106661fadca34804650fd2be3be6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_21ea67cd005773fb3ff773b34f3cc7708064576e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_db2b10f1056677bcbce3b5ce036644d7577af9dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_bc24f3a30ee3a7a16af2c0a38e5975028f80ca80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_298de4090a4db1cb4f60b194f430adf7f523efd0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_9fb9919999d401fe936016ccd870a77e5874ba16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_1de70abc89f9253ed08d70fd60e4b8b2effca49f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dd7e9e4044d541b253c526294b9f4985029d846c">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.43.2_aaf129d6b0c76498934ace51f49cc1f84e594b86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_1b8d9d346a0f64728a9a52017d03710ad25ee94c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.2/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_e52d8b4480085e8d2109d966e69f98130304c478.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_69ce61c2309ec0fe4525a66b1cdbaf21b52e56a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_e92736c62da1cc1180ea26ad2ead05b903e1b790.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_8e909f66a83b9aec8fe0796264adbe8bdcf0ef65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_aa76f00b796f99de81d5f245ce5cf631911ae698.jar" />
+    </item>
+
+</items>

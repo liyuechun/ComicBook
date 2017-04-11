@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/liyuechun/Desktop/六天课程/第四天/MyChat/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/liyuechun/Desktop/六天课程/第四天/MyChat/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/liyuechun/Desktop/0403/ComicApp/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/liyuechun/Desktop/0403/ComicApp/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/liyuechun/Desktop/动漫之家/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/liyuechun/Desktop/动漫之家/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/liyuechun/Desktop/ComicBook/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

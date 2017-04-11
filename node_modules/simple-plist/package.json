@@ -1,0 +1,24 @@
+{
+	"name": "simple-plist",
+	"author": "Joe Wollard",
+	"license": "MIT",
+	"homepage": "https://github.com/wollardj/node-simple-plist.git",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wollardj/node-simple-plist.git"
+	},
+	"version": "0.1.4",
+	"description": "A wrapper utility for interacting with plist data.",
+	"main": "simple-plist.js",
+	"keywords": [
+		"plist",
+		"binary",
+		"bplist",
+		"xml"
+	],
+	"dependencies": {
+		"plist": "1.2.0",
+		"bplist-parser": "0.0.6",
+		"bplist-creator": "0.0.4"
+	}
+}
