@@ -12,6 +12,10 @@
         "source": "/Users/liyuechun/Desktop/ComicBook/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/liyuechun/Desktop/demo/ComicBook/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/liyuechun/Desktop/demo/ComicBook/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/liyuechun/Desktop/六天课程/第四天/MyChat/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
         "source": "/Users/liyuechun/Desktop/六天课程/第四天/MyChat/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },

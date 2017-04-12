@@ -22,5 +22,9 @@
     {
         "merged": "/Users/liyuechun/Desktop/六天课程/第四天/MyChat/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/Users/liyuechun/Desktop/六天课程/第四天/MyChat/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.2/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/liyuechun/Desktop/demo/ComicBook/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/liyuechun/Desktop/demo/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.2/res/xml/preferences.xml"
     }
 ]

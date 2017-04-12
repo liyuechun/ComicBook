@@ -21,6 +21,8 @@ import ChapterPage from './chapter/chapterPage';
 import DetailPage from './detail/detailPage'
 import { StackNavigator,TabNavigator,DrawerNavigator } from 'react-navigation';
 
+import { IS_TAB_STYLE } from '../config';
+
 import { Provider } from 'react-redux';
 import store from '../store/store';
 
@@ -67,7 +69,7 @@ let homeNav = StackNavigator({
         header: ({navigate}) => ({
             style: {backgroundColor: 'rgb(250,126,30)'},
             titleStyle: {color: 'white',fontSize: 18},
-            left: Platform.OS === 'ios'? <Text style={{width: 0}}/> : 
+            left: IS_TAB_STYLE ? <Text style={{width: 0}}/> : 
             <TouchableHighlight onPress={() => {
                 navigate('DrawerOpen');
             }}>
@@ -122,7 +124,7 @@ let discoverNav = StackNavigator({
         header: ({navigate}) => ({
             style: {backgroundColor: 'rgb(250,126,30)'},
             titleStyle: {color: 'white',fontSize: 18},
-            left: Platform.OS === 'ios'? <Text style={{width: 0}}/> : 
+            left: IS_TAB_STYLE ? <Text style={{width: 0}}/> : 
             <TouchableHighlight onPress={() => {
                 navigate('DrawerOpen');
             }}>
@@ -176,7 +178,7 @@ let choiceNav = StackNavigator({
         header: ({navigate}) => ({
             style: {backgroundColor: 'rgb(250,126,30)'},
             titleStyle: {color: 'white',fontSize: 18},
-            left: Platform.OS === 'ios'? <Text style={{width: 0}}/> : 
+            left: IS_TAB_STYLE ? <Text style={{width: 0}}/> : 
             <TouchableHighlight onPress={() => {
                 navigate('DrawerOpen');
             }}>
@@ -228,7 +230,7 @@ let meNav = StackNavigator({
         header: ({navigate}) => ({
             style: {backgroundColor: 'rgb(250,126,30)'},
             titleStyle: {color: 'white',fontSize: 18},
-            left: Platform.OS === 'ios'? <Text style={{width: 0}}/> : 
+            left: IS_TAB_STYLE ? <Text style={{width: 0}}/> : 
             <TouchableHighlight onPress={() => {
                 navigate('DrawerOpen');
             }}>
@@ -252,7 +254,8 @@ let TabBar = TabNavigator({
     tabBarPosition: 'bottom',
     tabBarOptions: {
         activeTintColor: 'rgb(250,126,30)'
-    }
+    },
+    swipeEnabled: false //是否允许tabBar手势切换
 });
 
 
@@ -275,7 +278,7 @@ let Drawer = DrawerNavigator({
 class Root extends Component {
 
     render() {
-        let RootView = Platform.OS === 'ios' ? TabBar : Drawer;
+        let RootView = IS_TAB_STYLE ? TabBar : Drawer;
         return (
             <Provider store={store}>
                 <View style={{flex: 1}}>

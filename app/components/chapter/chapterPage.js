@@ -83,12 +83,14 @@ class ChapterPage extends Component {
     _renderRow = (rowData,sectionID,rowID) => {
         
         return (
-            <TouchableHighlight onPress={() => {
-                let comicName = this.props.navigation.state.params.comicName;
-                let id = rowData.id;
-                let name = rowData.name;
-                this.props.navigation.navigate('DetailPage',{comicName,id,name});
-            }}>
+            <TouchableHighlight 
+                underlayColor='rgb(221,221,229)'
+                onPress={() => {
+                    let comicName = this.props.navigation.state.params.comicName;
+                    let id = rowData.id;
+                    let name = rowData.name;
+                    this.props.navigation.navigate('DetailPage',{comicName,id,name});
+                }}>
                 <View style={{height: 40,justifyContent: 'center',borderBottomWidth: 1,borderBottomColor: 'gray'}}>
                     <Text 
                         style={{marginLeft: 10}}>{rowData.name}</Text>

@@ -6,7 +6,8 @@
  */
 
 
-import { KEY } from '../constants/key';
+import { KEY } from '../config';
+
 
 
 let HttpUtil = {
@@ -52,7 +53,7 @@ let HttpUtil = {
                 return a;
             }, [])
             .join('&');
-        // 2.發送請求
+        // 2.发送請求
         fetch(url, {
             method: 'POST',
             headers: {

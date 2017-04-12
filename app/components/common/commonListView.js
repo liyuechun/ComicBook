@@ -50,9 +50,11 @@ class CommonListView extends Component {
 
     _renderRow = (rowData) => {
         return (
-            <TouchableHighlight onPress={() => {
-                this.props.pushToChapter(rowData.name);
-            }}>
+            <TouchableHighlight
+                underlayColor='rgb(221,221,229)' 
+                onPress={() => {
+                    this.props.pushToChapter(rowData.name);
+                }}>
                 <View style={{width: window.width}}>
                     <Image 
                         style={{height: 250,width: window.width}} 

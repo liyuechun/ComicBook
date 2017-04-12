@@ -32,9 +32,11 @@ class HomeCell extends Component {
                     style={{width: 80,height: 100,position: 'absolute',top: -6,right: 0}} /> : null;
 
         return (
-            <TouchableHighlight onPress={() => {
-                this.props.pushToChapter(rowData.name);
-            }}>
+            <TouchableHighlight
+                underlayColor='rgb(221,221,229)' 
+                onPress={() => {
+                    this.props.pushToChapter(rowData.name);
+                }}>
                 <View style={{height: 100,borderBottomColor: 'gray',borderBottomWidth: 1,flexDirection: 'row'}}>
                     <Image 
                         source={{uri: rowData.coverImg}}
