@@ -5,7 +5,8 @@ import React, { Component } from 'react';
 import {  
     Text,
     TouchableHighlight,
-    Image
+    Image,
+    InteractionManager
 } from 'react-native';
 
 import { fetchDetailPageData } from '../../actions/detailPageAction';
@@ -76,8 +77,9 @@ class DetailPage extends Component {
         console.log("componentDidMount");
         let comicName = this.props.navigation.state.params.comicName;
         let id = this.props.navigation.state.params.id;
-        
-        this.props.fetchDetailPageData(CHAPTERCONTENT_URL,{comicName,id},true);
+        InteractionManager.runAfterInteractions(() => {
+            this.props.fetchDetailPageData(CHAPTERCONTENT_URL,{comicName,id},true);
+        });
     }
 }
 

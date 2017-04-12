@@ -6,7 +6,8 @@ import {
     Text,
     ListView,
     Image,
-    View
+    View,
+    InteractionManager
 } from 'react-native';
 
 import window from '../../constants/window';
@@ -48,7 +49,10 @@ class DiscoverPage extends Component {
     }
     
     componentDidMount() {
-        this.props.fetchDiscoverPageData(BOOK_URL,params,true);
+        InteractionManager.runAfterInteractions(() => {
+            this.props.fetchDiscoverPageData(BOOK_URL,params,true);
+        });
+        
     }
 
 }

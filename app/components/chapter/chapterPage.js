@@ -4,11 +4,12 @@ import {
     Image,
     TouchableHighlight,
     ListView,
-    View
+    View,
+    InteractionManager
 } from 'react-native';
 
 import SGListView from 'react-native-sglistview';
-import { CHAPTER_URL } from '../../constants/api';
+import { CHAPTER_URL , BOOK_URL} from '../../constants/api';
 import { fetchChapterPageData } from '../../actions/chapterPageAction'
 import { connect } from 'react-redux';
 import window from '../../constants/window';
@@ -105,7 +106,10 @@ class ChapterPage extends Component {
     componentDidMount() {
         let comicName = this.props.navigation.state.params.comicName;
         let params = {comicName};
-        this.props.fetchChapterPageData(CHAPTER_URL,params,true);
+        InteractionManager.runAfterInteractions(() => {
+            this.props.fetchChapterPageData(CHAPTER_URL,params,true);
+        });
+        
     }
 
 

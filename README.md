@@ -1,7 +1,7 @@
 # 基于iOS和Android的react-native跨平台漫画App
 
 ## ComicBook
-`ComicBook`项目参考了[ComicApp](https://github.com/mobxjs/mobx)的部分设计和部分代码，是`ComicBook`是`ComicApp`的重构版。本项目架构清晰，代码简洁，还配套[完整的视频](http://www.kongyixueyuan.com/course/3528)。
+`ComicBook`项目参考了[ComicApp](https://github.com/mobxjs/mobx)的部分设计和部分代码，`ComicBook`是`ComicApp`的重构版。本项目架构清晰，代码简洁，还配套[完整的视频](http://www.kongyixueyuan.com/course/3528)。
 
 ## 项目使用须知
 1. `$ git clone https://github.com/liyuechun/ComicBook.git`

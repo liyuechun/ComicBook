@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {  
-    Text
+    Text,
+    InteractionManager
 } from 'react-native';
 
 import CommonListView from '../common/commonListView';
@@ -30,7 +31,9 @@ class BeautifulPage extends Component {
     }
 
     componentDidMount() {
-        this.props.fetchBeautifulPageData(BOOK_URL,params,true);
+        InteractionManager.runAfterInteractions(() => {
+            this.props.fetchBeautifulPageData(BOOK_URL,params,true);
+        });
     }
 }
 

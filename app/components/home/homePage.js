@@ -8,8 +8,11 @@ import {
     View,
     ListView,
     Platform,
-    TouchableHighlight
+    TouchableHighlight,
+    InteractionManager
 } from 'react-native';
+
+
 
 import window from '../../constants/window';
 
@@ -115,7 +118,9 @@ class HomePage extends Component {
   }
 
   componentDidMount() {
-      this.props.fetchMainPageData(BOOK_URL,params,true);
+      InteractionManager.runAfterInteractions(() => {
+            this.props.fetchMainPageData(BOOK_URL,params,true);
+      });
   }
 
 }

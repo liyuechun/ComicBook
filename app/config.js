@@ -30,8 +30,8 @@ export const KEY = "8f28c126609a563c7ce16f6a83369459";
 /**
  * Android端是否以抽屉样式展示
  */
-// const SHOW_ANDROID_DRAWER = true;
-const SHOW_ANDROID_DRAWER = false;
+const SHOW_ANDROID_DRAWER = true;
+// const SHOW_ANDROID_DRAWER = false;
 
 /**
  * iOS端是否以抽屉样式展示
