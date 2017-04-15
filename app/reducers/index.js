@@ -6,9 +6,8 @@ import girlPageReducer from './girlPageReducer';
 import beautifulPageReducer from './beautifulPageReducer';
 import chapterPageReducer from './chapterPageReducer';
 import detailPageReducer from './detailPageReducer';
-
-
 let reducers = {
+
     homePageReducer,
     discoverPageReducer,
     girlPageReducer,

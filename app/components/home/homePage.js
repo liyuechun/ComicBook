@@ -7,12 +7,8 @@ import {
     Image,
     View,
     ListView,
-    Platform,
-    TouchableHighlight,
     InteractionManager
 } from 'react-native';
-
-
 
 import window from '../../constants/window';
 
@@ -21,6 +17,8 @@ import ViewPager from 'react-native-viewpager';
 import StaticContainer from 'react-static-container';
 
 import HomeCell from './homeCell';
+
+import ChapterPage from '../chapter/chapterPage';
 
 import { fetchMainPageData } from '../../actions/mainPageAction';
 
@@ -38,10 +36,8 @@ let IMGS = [
     'http://imgs.juheapi.com/comic_xin/5559b86938f275fd560ad6d3.jpg'
 ];
 
-
-// url参数
 let params = {
-    type: '少年漫画',
+    type: "少年漫画",
     skip: 40
 }
 
@@ -76,19 +72,16 @@ class HomePage extends Component {
 
     _renderRow = (rowData) => {
         return (
-            <HomeCell
-                pushToChapter={(comicName) => {
-                    console.log(this.props);
-                    this.props.navigation.navigate('ChapterPage',{comicName});
-                }} 
-                rowData={rowData}/>
+            <HomeCell rowData={rowData} pushToChapterPage={(comicName) => {
+                this.props.navigation.navigate('ChapterPage',{comicName});
+            }}/>
         )
     }
 
     _renderHeader = () => {
         return (
             <StaticContainer>
-                <View style={{width:window.width,height: 150}}>
+                <View style={{width:window.width,height: 120}}>
                     <ViewPager
                         style={{flex: 1}}
                         dataSource={this.state.viewPageDataSource}
@@ -110,17 +103,21 @@ class HomePage extends Component {
         );
     }
 
+  shouldComponentUpdate(nextProps, nextState) {
+      return nextProps.isSuccess;
+  }
+
   componentWillReceiveProps(nextProps) {
-      
       this.setState({
           listDataSource: this.state.listDataSource.cloneWithRows(nextProps.data)
       });
+
   }
 
   componentDidMount() {
       InteractionManager.runAfterInteractions(() => {
             this.props.fetchMainPageData(BOOK_URL,params,true);
-      });
+        });
   }
 
 }

@@ -1,126 +1,97 @@
-import React, { Component,PropTypes } from 'react';
+import React, { Component } from 'react';
+
 import {  
     Text,
-    Image,
     TouchableHighlight,
+    Image,
     ListView,
     View,
     InteractionManager
 } from 'react-native';
 
-import SGListView from 'react-native-sglistview';
-import { CHAPTER_URL , BOOK_URL} from '../../constants/api';
-import { fetchChapterPageData } from '../../actions/chapterPageAction'
+
+import { CHAPTER_URL } from '../../constants/api';
+
+import { fetchChapterPageData } from '../../actions/chapterPageAction';
+
 import { connect } from 'react-redux';
-import window from '../../constants/window';
-import DetailPage from '../detail/detailPage';
-const LIST_VIEW = 'listview';
 
 class ChapterPage extends Component {
 
-    static navigationOptions = {
-        title: ({state}) => {
-            return state.params.comicName;
-        },
-        header: ({state,setParams,goBack}) => {
-            return {
-                style: {backgroundColor: 'rgb(250,126,30)'},
-                titleStyle: {color: 'white',fontSize: 18},
-                left: 
-                <TouchableHighlight 
-                    underlayColor='rgb(250,126,30)'
-                    onPress={() => {
-                        goBack();
-                    }}>
-                    <Image 
-                        source={require('../../images/back.png')}
-                        style={{width: 30,height: 22.5,marginLeft: 5}} />
-                </TouchableHighlight>
-            }
-        },
-        tabBar: {
-            visible: false
+
+     static navigationOptions = ({navigation}) => {
+        
+        return {
+            headerTitle: navigation.state.params.comicName,
+            tabBarVisible: false,
+            headerLeft: <TouchableHighlight
+                            underlayColor="rgb(250,126,30)" 
+                            onPress={() => {          
+                                navigation.goBack();
+                            }}>
+                                <Image
+                                    source={require('../../images/back.png')}
+                                    style={{width: 25,height: 25,marginLeft: 10}}
+                                />
+                        </TouchableHighlight>
         }
     }
-
 
     static get defaultProps() {
         return {
-            data: [],
-            isLoading: false,
-            isSuccess: false
+            data: ['1','2','1','2','1','2','1','2','1','2']
         }
     }
 
-    static propTypes = {
-        data: PropTypes.arrayOf(PropTypes.object).isRequired,
-        isLoading: PropTypes.bool.isRequired,
-        isSuccess: PropTypes.bool.isRequired
-    }
-
-    render() {
-        
-        return (
-            <SGListView 
-                ref={LIST_VIEW}
-                pageSize={1}
-                style={{flex: 1}}
+    render(){
+        return(
+            <ListView 
+                removeClippedSubviews={false}
                 enableEmptySections={true}
+                dataSource={this._getDataSource()}
                 renderRow={this._renderRow}
-                dataSource={this.getDataSource()}
-                initialListSize={1}
-                stickyHeaderIndices={[]}
-                onEndReachedThreshold={1}
-                scrollRenderAheadDistance={1}
             />
-        )
+        );
     }
 
-    getDataSource = () => {
-        const dataSource = new ListView.DataSource({rowHasChanged: (r1,r2) => r1.uuid !== r2.uuid});
-        return dataSource.cloneWithRows(this.props.data);
+    _getDataSource = () => {
+
+        const ds = new ListView.DataSource({rowHasChanged: (r1,r2) => r1 !== r2});
+        if (this.props.data.length === 0)
+            return ds;
+        return ds.cloneWithRows(this.props.data);
     }
 
-    _renderRow = (rowData,sectionID,rowID) => {
-        
+    _renderRow = (rowData) => {
+        let comicName = this.props.navigation.state.params.comicName;
+        let id = rowData.id;
+        let params = {comicName,id};
         return (
             <TouchableHighlight 
-                underlayColor='rgb(221,221,229)'
+                underlayColor='white'
                 onPress={() => {
-                    let comicName = this.props.navigation.state.params.comicName;
-                    let id = rowData.id;
-                    let name = rowData.name;
-                    this.props.navigation.navigate('DetailPage',{comicName,id,name});
+                    this.props.navigation.navigate('DetailPage',params);
                 }}>
-                <View style={{height: 40,justifyContent: 'center',borderBottomWidth: 1,borderBottomColor: 'gray'}}>
-                    <Text 
-                        style={{marginLeft: 10}}>{rowData.name}</Text>
-                    <Image 
-                        style={{position: 'absolute',width: 20,height: 20,top: 10,right:10}}
-                        source={require('../../images/jiantou.png')} />
-                </View>
+                    <View style={{height: 40,borderBottomColor:'gray',borderBottomWidth: 1,flexDirection: 'row',alignItems: 'center',justifyContent: 'space-between'}}>
+                        <Text style={{marginLeft: 20}}>{rowData.name}</Text>
+                        <Image
+                            style={{width: 30,height: 30,marginRight: 10}} 
+                            source={require('../../images/jiantou.png')}/>
+                    </View>
             </TouchableHighlight>
         )
-    }
-
-    componentDidMount() {
-        let comicName = this.props.navigation.state.params.comicName;
-        let params = {comicName};
-        InteractionManager.runAfterInteractions(() => {
-            this.props.fetchChapterPageData(CHAPTER_URL,params,true);
-        });
         
     }
 
 
-    shouldComponentUpdate(nextProps, nextState) {
-        return nextProps.isSuccess;
+    componentDidMount() {
+        InteractionManager.runAfterInteractions(() => {
+            let params = {comicName: this.props.navigation.state.params.comicName};
+            this.props.fetchChapterPageData(CHAPTER_URL,params,true);
+        });
     }
 
 
-    componentWillUnmount() {
-        console.log("componentWillUnmount");
-    }
 
 }
 
@@ -134,7 +105,7 @@ export default ChapterPage = connect(
             err 
         }
     },
-    { 
+    {
         fetchChapterPageData
     }
 )(ChapterPage);

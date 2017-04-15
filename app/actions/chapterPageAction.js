@@ -13,7 +13,7 @@ export let fetchChapterPageData = (url,params,isLoading) => {
             isLoading,
             type: STATR_FETCH_CHAPTER_PAGE_DATA
         });
-        return HttpUtil.fetchGet(
+        HttpUtil.fetchGet(
             url,
             params,
             (jsonData) => {

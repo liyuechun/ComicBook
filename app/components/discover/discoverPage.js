@@ -14,48 +14,58 @@ import window from '../../constants/window';
 
 import CommonListView from '../common/commonListView';
 
+
+import ChapterPage from '../chapter/chapterPage';
+
+import { BOOK_URL } from '../../constants/api';
+
 import { connect } from 'react-redux';
 
 import { fetchDiscoverPageData } from '../../actions/discoverPageAction';
 
-import { BOOK_URL } from '../../constants/api';
-import HomeCell from '../home/homeCell';
-
-//url参数
 let params = {
-    type: '青年漫画',
-    skip: 20
+    type: "青年漫画"
 }
+
 
 class DiscoverPage extends Component {
     static navigationOptions = {
         title: '发现'
     }
 
+    
     render() {
-        
         return (
             <CommonListView 
-                pushToChapter={(comicName) => {
-                    console.log(this.props);
+                pushToChapterPage={(comicName) => {
                     this.props.navigation.navigate('ChapterPage',{comicName});
                 }}
                 data={this.props.data}/>
         )
     }
 
-    componentWillReceiveProps (nextProps) {
-        
-    }
-    
     componentDidMount() {
         InteractionManager.runAfterInteractions(() => {
             this.props.fetchDiscoverPageData(BOOK_URL,params,true);
         });
-        
     }
 
+    shouldComponentUpdate(nextProps, nextState) {
+        return nextProps.isSuccess;
+    }
+
+    componentWillReceiveProps (nextProps) {
+        console.log('discover page componentWillReceiveProps');
+        console.log(nextProps);
+    }
+    
+
+
 }
+
+
+
+
 
 export default DiscoverPage = connect(
     (state) => {
@@ -67,7 +77,7 @@ export default DiscoverPage = connect(
             err 
         }
     },
-    { 
+    {
         fetchDiscoverPageData
     }
 )(DiscoverPage);

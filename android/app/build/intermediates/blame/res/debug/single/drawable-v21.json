@@ -1,55 +1,15 @@
 [
     {
-        "merged": "/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "merged": "/Users/liyuechun/Desktop/六天课程/第六天/案例/ComicBook/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/liyuechun/Desktop/六天课程/第六天/案例/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "/Users/liyuechun/Desktop/六天课程/第四天/MyChat/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/liyuechun/Desktop/六天课程/第四天/MyChat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "/Users/liyuechun/Desktop/demo/ComicBook/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/liyuechun/Desktop/demo/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/liyuechun/Desktop/六天课程/第四天/MyChat/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/liyuechun/Desktop/六天课程/第四天/MyChat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/liyuechun/Desktop/demo/ComicBook/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/liyuechun/Desktop/demo/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "merged": "/Users/liyuechun/Desktop/六天课程/第六天/案例/ComicBook/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/liyuechun/Desktop/六天课程/第六天/案例/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
         "merged": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
         "source": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "/Users/liyuechun/Desktop/动漫之家/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/liyuechun/Desktop/动漫之家/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "/Users/liyuechun/Desktop/动漫之家/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/liyuechun/Desktop/动漫之家/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/liyuechun/Desktop/0403/ComicApp/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/liyuechun/Desktop/0403/ComicApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/liyuechun/Desktop/0403/ComicApp/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/liyuechun/Desktop/0403/ComicApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",

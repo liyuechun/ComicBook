@@ -1,32 +1,42 @@
-import React, { Component } from 'react';
+import React, { Component,PropTypes } from 'react';
 import {  
     Text,
     InteractionManager
 } from 'react-native';
 
 import CommonListView from '../common/commonListView';
-import { fetchBeautifulPageData } from '../../actions/beautifulPageAction';
-import { connect } from 'react-redux';
+
 
 import { BOOK_URL } from '../../constants/api';
 
-//url参数
+import { connect } from 'react-redux';
+
+import { fetchBeautifulPageData } from '../../actions/beautifulAction';
+
 let params = {
-    type: '耽美漫画',
-    skip: 20
+    type: "耽美漫画"
 }
 
-
 class BeautifulPage extends Component {
+
+    static get defaultProps() {
+        return {
+            pushToChapterPage: () => {}
+        }
+    }
+
+    static propTypes = {
+        pushToChapterPage: PropTypes.func.isRequired
+    }
 
     render() {
         return (
             <CommonListView 
-                pushToChapter={(comicName) => {
-                    console.log(this.props);
-                    this.props.navigation.navigate('ChapterPage',{comicName});
+                pushToChapterPage={(comicName) => {
+                    this.props.pushToChapterPage(comicName)
                 }}
-                data={this.props.data}/>
+                data={this.props.data}
+            />
         )
     }
 
@@ -35,6 +45,13 @@ class BeautifulPage extends Component {
             this.props.fetchBeautifulPageData(BOOK_URL,params,true);
         });
     }
+
+
+    shouldComponentUpdate(nextProps, nextState) {
+        return nextProps.isSuccess;
+    }
+
+
 }
 
 export default BeautifulPage = connect(
@@ -47,7 +64,7 @@ export default BeautifulPage = connect(
             err 
         }
     },
-    { 
+    {
         fetchBeautifulPageData
     }
 )(BeautifulPage);

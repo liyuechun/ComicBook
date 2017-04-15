@@ -1,7 +1,6 @@
 
-
-
 import React, { Component } from 'react';
+
 import {  
     Text,
     TouchableHighlight,
@@ -9,79 +8,86 @@ import {
     InteractionManager
 } from 'react-native';
 
+import { CHAPTERCONTENT_URL } from '../../constants/api';
+
 import { fetchDetailPageData } from '../../actions/detailPageAction';
+
 import { connect } from 'react-redux';
+
 import ViewPager from 'react-native-viewpager';
 
-import { CHAPTERCONTENT_URL } from '../../constants/api';
 import window from '../../constants/window';
 
 class DetailPage extends Component {
 
-    static navigationOptions = {
-        title: ({state}) => {
-            return state.params.name;
-        },
-        header: ({state,setParams,goBack}) => {
-            return {
-                style: {backgroundColor: 'rgb(250,126,30)'},
-                titleStyle: {color: 'white',fontSize: 18},
-                left: 
-                <TouchableHighlight 
-                    underlayColor='rgb(250,126,30)'
-                    onPress={() => {
-                        goBack();
-                    }}>
-                    <Image 
-                        source={require('../../images/back.png')}
-                        style={{width: 30,height: 22.5,marginLeft: 5}} />
-                </TouchableHighlight>
-            }
-        },
-        tabBar: {
-            visible: false
+    static navigationOptions = ({navigation}) => {
+        
+        return {
+            headerTitle: navigation.state.params.comicName,
+            tabBarVisible: false,
+            headerLeft: <TouchableHighlight
+                            underlayColor="rgb(250,126,30)" 
+                            onPress={() => {          
+                                navigation.goBack();
+                            }}>
+                                <Image
+                                    source={require('../../images/back.png')}
+                                    style={{width: 25,height: 25,marginLeft: 10}}
+                                />
+                        </TouchableHighlight>
         }
     }
 
     render() {
-
-        console.log("render");
-        console.log(this.props.data);
+        
         return (
             <ViewPager
                 style={{flex: 1}}
-                dataSource={this.getDataSource()}
+                dataSource={this._getViewPageDataSource()}
                 renderPage={this._renderPage}
                 isLoop={true}
                 autoPlay={false}/>
         )
     }
 
-    getDataSource = () => {
+    _getViewPageDataSource = () => {
         let viewPage = new ViewPager.DataSource({pageHasChanged: (p1, p2) => p1 !== p2});
-        
+        if (this.props.data.length === 0)
+            return viewPage;
         return viewPage.cloneWithPages(this.props.data);
+           
     }
 
-    _renderPage(data,pageID) {
+    _renderPage(url,pageID) {
         return (
             <Image
-                source={{uri: data}}
+                source={{uri: url}}
                 style={{width: window.width}} 
             />
         );
     }
 
 
+
+
+
     componentDidMount() {
-        console.log("componentDidMount");
-        let comicName = this.props.navigation.state.params.comicName;
-        let id = this.props.navigation.state.params.id;
         InteractionManager.runAfterInteractions(() => {
-            this.props.fetchDetailPageData(CHAPTERCONTENT_URL,{comicName,id},true);
+            let params = {
+                comicName: this.props.navigation.state.params.comicName,
+                id: this.props.navigation.state.params.id
+            };
+            this.props.fetchDetailPageData(CHAPTERCONTENT_URL,params,true);
         });
     }
+
+
+    shouldComponentUpdate(nextProps, nextState) {
+        return nextProps.isSuccess;
+    }
+
 }
+
 
 export default DetailPage = connect(
     (state) => {
@@ -93,7 +99,7 @@ export default DetailPage = connect(
             err 
         }
     },
-    { 
+    {
         fetchDetailPageData
     }
 )(DetailPage);

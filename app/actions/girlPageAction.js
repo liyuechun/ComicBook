@@ -13,7 +13,7 @@ export let fetchGirlPageData = (url,params,isLoading) => {
             isLoading,
             type: STATR_FETCH_GIRL_PAGE_DATA
         });
-        return HttpUtil.fetchGet(
+        HttpUtil.fetchGet(
             url,
             params,
             (jsonData) => {

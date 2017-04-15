@@ -1,5 +1,5 @@
 
-import {  
+import {
     Platform
 } from 'react-native';
 
@@ -15,8 +15,8 @@ import {
 
 /**
  * 备用key
- * 8f28c126609a563c7ce16f6a83369459 
- * ed273dc45c5042836181c2356b81db63 
+ * 8f28c126609a563c7ce16f6a83369459
+ * ed273dc45c5042836181c2356b81db63
 */
 
 /**
@@ -40,6 +40,3 @@ const SHOW_ANDROID_DRAWER = true;
 const SHOW_IOS_DRAWER = false;
 
 export const IS_TAB_STYLE = Platform.OS === 'ios' && !SHOW_IOS_DRAWER || Platform.OS !== 'ios' && ! SHOW_ANDROID_DRAWER;
-
-
-

@@ -5,9 +5,7 @@
  * failCallback:失败回调
  */
 
-
 import { KEY } from '../config';
-
 
 
 let HttpUtil = {
@@ -16,9 +14,9 @@ let HttpUtil = {
      * Get請求，沒有參數傳null
      */
     fetchGet: (url, params, successCallback, failCallback) => {
-    
+
          // 1.拼接參數
-        url += "?key="+KEY;
+        url += "?key=" + KEY;
         if (params) {
             var paramsBody = Object.keys(params)
                 .reduce((a, k) => {
@@ -31,12 +29,15 @@ let HttpUtil = {
         console.info("url:"+url);
         fetch(url)
             .then((response) => {
+              console.log(response);
               return response.json();
             })
             .then((responseObj) => {
+              console.log(responseObj);
               successCallback(responseObj)
             })
             .catch((error) => {
+              console.log(error);
               failCallback(error)
             }).done();
     },
@@ -53,7 +54,7 @@ let HttpUtil = {
                 return a;
             }, [])
             .join('&');
-        // 2.发送請求
+        // 2.發送請求
         fetch(url, {
             method: 'POST',
             headers: {

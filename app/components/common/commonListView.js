@@ -8,62 +8,65 @@ import {
     Text,
     TouchableHighlight
 } from 'react-native';
-import window from '../../constants/window';
+import {fetchMainPageData} from '../../actions/mainPageAction';
 
 class CommonListView extends Component {
 
-
+    
     static get defaultProps() {
         return {
-            pushToChapter: () => {}
+            data: [],
+            pushToChapterPage: () => {}
         }
     }
+
     static propTypes = {
-        pushToChapter: PropTypes.func.isRequired
-    }
-
-    constructor (props, context) {
-        super(props, context)
-        let ds = new ListView.DataSource({rowHasChanged: (r1,r2) => r1 !== r2});
-        this.state = {
-            dataSource: ds.cloneWithRows(["1","2","3"])
-        }
-    }
-
-    componentWillReceiveProps(nextProps) {
-        this.setState({
-            dataSource: this.state.dataSource.cloneWithRows(nextProps.data)
-        });
+        data: PropTypes.arrayOf(PropTypes.object).isRequired,
+        pushToChapterPage: PropTypes.func.isRequired
     }
 
     render(){
-        
         return(
             <ListView
                 style={{flex: 1}} 
                 enableEmptySections={true}
-                dataSource={this.state.dataSource}
+                dataSource={this._getDataSource()}
                 renderRow={this._renderRow}
             />
         );
     }
 
+
+    _getDataSource = () => {
+        console.log("======");
+        console.log(this.props.data);
+        const ds = new ListView.DataSource({rowHasChanged: (r1,r2) => r1 !== r2});
+        
+        if (this.props.data.length === 0){
+            return ds;
+        }
+        return  ds.cloneWithRows(this.props.data);
+    }
+
+
     _renderRow = (rowData) => {
+        const {
+            des,
+            coverImg
+        } = rowData;
         return (
-            <TouchableHighlight
-                underlayColor='rgb(221,221,229)' 
-                onPress={() => {
-                    this.props.pushToChapter(rowData.name);
-                }}>
-                <View style={{width: window.width}}>
+            <TouchableHighlight onPress={() => {
+                this.props.pushToChapterPage(rowData.name)
+            }}>
+                <View style={{width: window.width,height: 300}}>
                     <Image 
                         style={{height: 250,width: window.width}} 
-                        source={{uri: rowData.coverImg}}
+                        source={{uri: coverImg}}
                     />
                     <Text
-                        style={{marginBottom: 20}}
-                        numberOfLines={3}
-                    >{rowData.des}</Text>
+                        style={{height: 40,margin: 5}}
+                        numberOfLines={2}
+                    >{des}</Text>
                 </View>
             </TouchableHighlight>
         )

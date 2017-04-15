@@ -1,5 +1,5 @@
 {
-  "name": "comicapp",
+  "name": "comicbook",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,12 +8,11 @@
   },
   "dependencies": {
     "react": "16.0.0-alpha.6",
-    "react-native": "0.43.2",
+    "react-native": "0.43.3",
     "react-native-scrollable-tab-view": "^0.7.4",
-    "react-native-sglistview": "^0.3.10",
     "react-native-viewpager": "^0.2.13",
     "react-navigation": "git+https://github.com/react-community/react-navigation.git",
-    "react-redux": "^5.0.3",
+    "react-redux": "^5.0.4",
     "react-static-container": "^1.0.1",
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0"

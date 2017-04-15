@@ -13,7 +13,7 @@ export let fetchMainPageData = (url,params,isLoading) => {
             isLoading,
             type: STATR_FETCH_MAIN_PAGE_DATA
         });
-        return HttpUtil.fetchGet(
+        HttpUtil.fetchGet(
             url,
             params,
             (jsonData) => {

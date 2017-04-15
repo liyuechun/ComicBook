@@ -13,11 +13,11 @@ export let fetchDetailPageData = (url,params,isLoading) => {
             isLoading,
             type: STATR_FETCH_DETAIL_PAGE_DATA
         });
-        return HttpUtil.fetchGet(
+        HttpUtil.fetchGet(
             url,
             params,
             (jsonData) => {
-                dispatch(recieveData(jsonData));
+                dispatch(recieveDetailPageDataSuccess(jsonData));
             },
             (err) => {
                 dispatch({
@@ -30,20 +30,22 @@ export let fetchDetailPageData = (url,params,isLoading) => {
     }
 }
 
-let recieveData = (jsonData) => {
+
+
+const recieveDetailPageDataSuccess = (jsonData) => {
+
+    
 
     let imageList = jsonData.result.imageList;
-    let imageArr = [];
+    let dataArr = [];
     for (let i = 0; i < imageList.length; i++) {
-        let imageObj = imageList[i];
-        imageArr.push(imageObj.imageUrl);
+        dataArr.push(imageList[i].imageUrl);
     }
-
+    console.log("recieveDetailPageDataSuccess");
+    console.log(dataArr);
     return {
         type: FETCH_DETAIL_PAGE_DATA,
-        data: imageArr,
+        data: dataArr,
         isSuccess: true
     }
 }
-
-

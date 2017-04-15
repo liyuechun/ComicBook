@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/liyuechun/Desktop/demo/ComicBook/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w720dp-v13/values-w720dp-v13.xml",
+        "outputFile": "/Users/liyuechun/Desktop/六天课程/第六天/案例/ComicBook/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w720dp-v13/values-w720dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,31 +11,7 @@
                     "endOffset": 127
                 },
                 "from": {
-                    "file": "/Users/liyuechun/Desktop/demo/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-w720dp/values-w720dp.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 282,
-                        "endColumn": 76,
-                        "endOffset": 354
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/liyuechun/Desktop/六天课程/第四天/MyChat/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w720dp-v13/values-w720dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 76,
-                    "endOffset": 127
-                },
-                "from": {
-                    "file": "/Users/liyuechun/Desktop/六天课程/第四天/MyChat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-w720dp/values-w720dp.xml",
+                    "file": "/Users/liyuechun/Desktop/六天课程/第六天/案例/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-w720dp/values-w720dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -60,102 +36,6 @@
                 },
                 "from": {
                     "file": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-w720dp/values-w720dp.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 282,
-                        "endColumn": 76,
-                        "endOffset": 354
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w720dp-v13/values-w720dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 76,
-                    "endOffset": 127
-                },
-                "from": {
-                    "file": "/Users/liyuechun/Desktop/六天课程/0408/ComicApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-w720dp/values-w720dp.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 282,
-                        "endColumn": 76,
-                        "endOffset": 354
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/liyuechun/Desktop/动漫之家/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w720dp-v13/values-w720dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 76,
-                    "endOffset": 127
-                },
-                "from": {
-                    "file": "/Users/liyuechun/Desktop/动漫之家/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-w720dp/values-w720dp.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 282,
-                        "endColumn": 76,
-                        "endOffset": 354
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/liyuechun/Desktop/0403/ComicApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w720dp-v13/values-w720dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 76,
-                    "endOffset": 127
-                },
-                "from": {
-                    "file": "/Users/liyuechun/Desktop/0403/ComicApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-w720dp/values-w720dp.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 282,
-                        "endColumn": 76,
-                        "endOffset": 354
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w720dp-v13/values-w720dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 76,
-                    "endOffset": 127
-                },
-                "from": {
-                    "file": "/Users/liyuechun/Desktop/六天课程/第五天/MyChat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-w720dp/values-w720dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

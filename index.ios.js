@@ -4,12 +4,11 @@
  * @flow
  */
 
+ import {
+     AppRegistry
+ } from 'react-native';
 
-import {  
-    AppRegistry
-} from 'react-native';
-
-import Root from './app/components/root';
+ import Root from './app/components/root';
 
 
-AppRegistry.registerComponent('ComicApp', () => Root);
+AppRegistry.registerComponent('ComicBook', () => Root);

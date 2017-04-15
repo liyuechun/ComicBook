@@ -1,8 +1,8 @@
 
 
 import {
-    STATR_FETCH_BEUAUTIFUL_PAGE_DATA,
-    FETCH_BEUAUTIFUL_PAGE_DATA
+    STATR_FETCH_BEAUTIFUL_PAGE_DATA,
+    FETCH_BEAUTIFUL_PAGE_DATA
 }  from '../constants/type';
 
 
@@ -17,11 +17,11 @@ const nameInitialState = {
 
 const beautifulPageReducer = (state = nameInitialState, action) => {
     switch (action.type) {
-        case STATR_FETCH_BEUAUTIFUL_PAGE_DATA:
+        case STATR_FETCH_BEAUTIFUL_PAGE_DATA:
             return Object.assign({}, state, {
                 isLoading: action.isLoading
             })
-        case FETCH_BEUAUTIFUL_PAGE_DATA:
+        case FETCH_BEAUTIFUL_PAGE_DATA:
             return Object.assign({}, state, {
                 isLoading: false,
                 isSuccess: action.isSuccess,

@@ -1,7 +1,7 @@
 
 
-import { 
-    STATR_FETCH_DETAIL_PAGE_DATA, 
+import {
+    STATR_FETCH_DETAIL_PAGE_DATA,
     FETCH_DETAIL_PAGE_DATA
 }  from '../constants/type';
 
