@@ -93,3 +93,8 @@ $ react-native run-android
 
 1. mobx版本的ComicBook
 2. Weex版本的ComicBook
+
+
+## 联系我
+
+![联系我](http://orhm8wuhd.bkt.clouddn.com/ershiyidianjian.jpeg)
