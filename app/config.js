@@ -14,15 +14,9 @@ import {
 
 
 /**
- * 备用key
- * 8f28c126609a563c7ce16f6a83369459
- * ed273dc45c5042836181c2356b81db63
-*/
-
-/**
  * 将你申请的key替换掉下面的key
  */
-export const KEY = "8f28c126609a563c7ce16f6a83369459";
+export const KEY = "664b9884a4c2199b15ccfcfbdd7dbf5c";
 
 
 

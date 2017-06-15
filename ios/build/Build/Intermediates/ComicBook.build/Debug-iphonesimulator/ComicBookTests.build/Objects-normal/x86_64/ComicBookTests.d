@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/liyuechun/Desktop/demo/ComicBook/ios/ComicBookTests/ComicBookTests.m \
+  /Users/liyuechun/Desktop/ComicBook/ios/ComicBookTests/ComicBookTests.m \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h \
@@ -35,13 +35,13 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h \
-  /Users/liyuechun/Desktop/demo/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
-  /Users/liyuechun/Desktop/demo/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
-  /Users/liyuechun/Desktop/demo/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/liyuechun/Desktop/demo/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
-  /Users/liyuechun/Desktop/demo/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
-  /Users/liyuechun/Desktop/demo/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
-  /Users/liyuechun/Desktop/demo/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
-  /Users/liyuechun/Desktop/demo/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/liyuechun/Desktop/demo/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/liyuechun/Desktop/demo/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h
+  /Users/liyuechun/Desktop/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/liyuechun/Desktop/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/liyuechun/Desktop/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/liyuechun/Desktop/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/liyuechun/Desktop/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/liyuechun/Desktop/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/liyuechun/Desktop/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/liyuechun/Desktop/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/liyuechun/Desktop/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/liyuechun/Desktop/ComicBook/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h

@@ -54,7 +54,7 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-w480dp/values-w480dp.xml",
+                    "file": "/Users/liyuechun/.android/build-cache/678be850cc167970eb92de7b112dae0afa0ec621/output/res/values-w480dp/values-w480dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -73,7 +73,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-w480dp/values-w480dp.xml",
+                    "file": "/Users/liyuechun/.android/build-cache/678be850cc167970eb92de7b112dae0afa0ec621/output/res/values-w480dp/values-w480dp.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

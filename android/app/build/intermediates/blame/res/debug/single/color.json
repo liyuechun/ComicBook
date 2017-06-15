@@ -1,7 +1,7 @@
 [
     {
         "merged": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_secondary_text_material_light.xml"
+        "source": "/Users/liyuechun/.android/build-cache/678be850cc167970eb92de7b112dae0afa0ec621/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
         "merged": "/Users/liyuechun/Desktop/六天课程/第六天/案例/ComicBook/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
@@ -9,11 +9,11 @@
     },
     {
         "merged": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_material_light.xml"
+        "source": "/Users/liyuechun/.android/build-cache/678be850cc167970eb92de7b112dae0afa0ec621/output/res/color/abc_primary_text_material_light.xml"
     },
     {
         "merged": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "source": "/Users/liyuechun/.android/build-cache/678be850cc167970eb92de7b112dae0afa0ec621/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "/Users/liyuechun/Desktop/六天课程/第六天/案例/ComicBook/android/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
@@ -25,7 +25,7 @@
     },
     {
         "merged": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_secondary_text_material_dark.xml"
+        "source": "/Users/liyuechun/.android/build-cache/678be850cc167970eb92de7b112dae0afa0ec621/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "/Users/liyuechun/Desktop/六天课程/第六天/案例/ComicBook/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
@@ -33,7 +33,7 @@
     },
     {
         "merged": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_search_url_text.xml"
+        "source": "/Users/liyuechun/.android/build-cache/678be850cc167970eb92de7b112dae0afa0ec621/output/res/color/abc_search_url_text.xml"
     },
     {
         "merged": "/Users/liyuechun/Desktop/六天课程/第六天/案例/ComicBook/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
@@ -41,15 +41,15 @@
     },
     {
         "merged": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_disable_only_material_light.xml"
+        "source": "/Users/liyuechun/.android/build-cache/678be850cc167970eb92de7b112dae0afa0ec621/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/switch_thumb_material_light.xml"
+        "source": "/Users/liyuechun/.android/build-cache/678be850cc167970eb92de7b112dae0afa0ec621/output/res/color/switch_thumb_material_light.xml"
     },
     {
         "merged": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/switch_thumb_material_dark.xml"
+        "source": "/Users/liyuechun/.android/build-cache/678be850cc167970eb92de7b112dae0afa0ec621/output/res/color/switch_thumb_material_dark.xml"
     },
     {
         "merged": "/Users/liyuechun/Desktop/六天课程/第六天/案例/ComicBook/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
@@ -65,7 +65,7 @@
     },
     {
         "merged": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_material_dark.xml"
+        "source": "/Users/liyuechun/.android/build-cache/678be850cc167970eb92de7b112dae0afa0ec621/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
         "merged": "/Users/liyuechun/Desktop/六天课程/第六天/案例/ComicBook/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",

@@ -1,4 +1,7 @@
-#Sat Apr 15 18:29:25 CST 2017
-base.0=/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+#Thu Jun 15 16:54:16 CST 2017
+base.0=/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2077389b30286e60e384af69d66909d664749b3f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_41e04833e647ce455a790b755f0969d43b17bd34/classes.dex
+base.1=/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_41e04833e647ce455a790b755f0969d43b17bd34
+file.0=/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2077389b30286e60e384af69d66909d664749b3f/classes.dex

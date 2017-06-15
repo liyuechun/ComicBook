@@ -21,23 +21,23 @@ ADDED from /Users/liyuechun/Desktop/ComicBook/android/app/src/main/AndroidManife
 		ADDED from /Users/liyuechun/Desktop/ComicBook/android/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Users/liyuechun/Desktop/ComicBook/android/app/src/main/AndroidManifest.xml:7:5-77
-MERGED from [com.facebook.react:react-native:0.43.3] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.3/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.43.3] /Users/liyuechun/.android/build-cache/3e37f5b45d56a81c094e898e1ca23111b3acc391/output/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /Users/liyuechun/Desktop/ComicBook/android/app/src/main/AndroidManifest.xml:7:22-75
 uses-sdk
 ADDED from /Users/liyuechun/Desktop/ComicBook/android/app/src/main/AndroidManifest.xml:9:5-11:41
-MERGED from [com.facebook.react:react-native:0.43.3] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.3/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.4.0] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.0.1] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.0.1] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.0.1] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.0.1] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.0.1] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.0.1] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.react:react-native:0.43.3] /Users/liyuechun/.android/build-cache/3e37f5b45d56a81c094e898e1ca23111b3acc391/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/liyuechun/.android/build-cache/678be850cc167970eb92de7b112dae0afa0ec621/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] /Users/liyuechun/.android/build-cache/d87db9e93c3750dc70439ae4cd35bd35c36f6575/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/liyuechun/.android/build-cache/2c006e9dcc781ee0cf2b1b4644550a4572f6e12b/output/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/liyuechun/.android/build-cache/5bf1be1babfb44fc07e3f0c892fae896614b62bc/output/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.0.1] /Users/liyuechun/.android/build-cache/fad2940c6fd30dca726ed59c8792bafb082920ca/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.0.1] /Users/liyuechun/.android/build-cache/88393e139c0962373aec27064984355e526dda8a/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.0.1] /Users/liyuechun/.android/build-cache/950e4c0ff8bbb5cf47aed75142996446a1c6d75d/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.0.1] /Users/liyuechun/.android/build-cache/bfd3d768fea306c11459fa3120421dc2cf56d1de/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.0.1] /Users/liyuechun/.android/build-cache/d15e848c5a464aee2351a348ff3bb0b5990a5a6c/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.0.1] /Users/liyuechun/.android/build-cache/ec8cf88a85b20b3d3ca36a261c47940e56850564/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/liyuechun/.android/build-cache/6fa34594615f8fcdb2c5df88f544d3885bb28ac5/output/AndroidManifest.xml:2:3-70
 	android:targetSdkVersion
 		ADDED from /Users/liyuechun/Desktop/ComicBook/android/app/src/main/AndroidManifest.xml:11:9-38
 		INJECTED from /Users/liyuechun/Desktop/ComicBook/android/app/src/main/AndroidManifest.xml
@@ -48,11 +48,11 @@ MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/liyuechun/Desktop/Comi
 		INJECTED from /Users/liyuechun/Desktop/ComicBook/android/app/src/main/AndroidManifest.xml
 application
 ADDED from /Users/liyuechun/Desktop/ComicBook/android/app/src/main/AndroidManifest.xml:13:5-30:19
-MERGED from [com.facebook.react:react-native:0.43.3] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.3/AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+MERGED from [com.facebook.react:react-native:0.43.3] /Users/liyuechun/.android/build-cache/3e37f5b45d56a81c094e898e1ca23111b3acc391/output/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/liyuechun/.android/build-cache/678be850cc167970eb92de7b112dae0afa0ec621/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/liyuechun/.android/build-cache/2c006e9dcc781ee0cf2b1b4644550a4572f6e12b/output/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/liyuechun/.android/build-cache/6fa34594615f8fcdb2c5df88f544d3885bb28ac5/output/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/liyuechun/.android/build-cache/424c666d5aac3df043ff986058f5534513b40889/output/AndroidManifest.xml:2:3-17
 	android:label
 		ADDED from /Users/liyuechun/Desktop/ComicBook/android/app/src/main/AndroidManifest.xml:16:7-39
 	android:allowBackup
@@ -87,9 +87,9 @@ activity#com.facebook.react.devsupport.DevSettingsActivity
 ADDED from /Users/liyuechun/Desktop/ComicBook/android/app/src/main/AndroidManifest.xml:29:7-84
 	android:name
 		ADDED from /Users/liyuechun/Desktop/ComicBook/android/app/src/main/AndroidManifest.xml:29:17-81
-android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 IMPLIED from /Users/liyuechun/Desktop/ComicBook/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-android:uses-permission#android.permission.READ_PHONE_STATE
+uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from /Users/liyuechun/Desktop/ComicBook/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
 IMPLIED from /Users/liyuechun/Desktop/ComicBook/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

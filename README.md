@@ -8,7 +8,8 @@
 2. `$ cd ComicBook`
 3. `$ npm install`
 4. 如下图打开项目配置文件
-[![cover](http://oo92kgesj.bkt.clouddn.com/config_path.png)](http://oo92kgesj.bkt.clouddn.com/config_path.png)
+ ![配置](Design_Sketch/config_path.png)
+
 
 5. 配置说明
 
@@ -65,31 +66,14 @@ $ react-native run-android
 ```
 
 
-## Android && iOS端抽屉效果
+## 效果图
 
-[![cover](http://oo92kgesj.bkt.clouddn.com/android_drawer.png)](http://oo92kgesj.bkt.clouddn.com/android_drawer.png)
-[![cover](http://oo92kgesj.bkt.clouddn.com/ios_drawer.png)](http://oo92kgesj.bkt.clouddn.com/ios_drawer.png)
-
-## Android && iOS 抽屉效果主页
-[![cover](http://oo92kgesj.bkt.clouddn.com/android_drawer_zhuye.png)](http://oo92kgesj.bkt.clouddn.com/android_drawer_zhuye.png)
-[![cover](http://oo92kgesj.bkt.clouddn.com/ios_drawer_zhuye.png)](http://oo92kgesj.bkt.clouddn.com/ios_drawer_zhuye.png)
-
-
-## Android && iOS TabBar主页效果
-[![cover](http://oo92kgesj.bkt.clouddn.com/android_drawer.png)](http://oo92kgesj.bkt.clouddn.com/android_drawer.png)
-[![cover](http://oo92kgesj.bkt.clouddn.com/tabbar_ios_zhuye.png)](http://oo92kgesj.bkt.clouddn.com/tabbar_ios_zhuye.png)
-
-
-## 其他页面效果
-[![cover](http://oo92kgesj.bkt.clouddn.com/0001.png)](http://oo92kgesj.bkt.clouddn.com/0001.png)
-[![cover](http://oo92kgesj.bkt.clouddn.com/0002.png)](http://oo92kgesj.bkt.clouddn.com/0002.png)
-[![cover](http://oo92kgesj.bkt.clouddn.com/0003.png)](http://oo92kgesj.bkt.clouddn.com/0003.png)
-[![cover](http://oo92kgesj.bkt.clouddn.com/0004.png)](http://oo92kgesj.bkt.clouddn.com/0004.png)
-[![cover](http://oo92kgesj.bkt.clouddn.com/0005.png)](http://oo92kgesj.bkt.clouddn.com/0005.png)
-[![cover](http://oo92kgesj.bkt.clouddn.com/0006.png)](http://oo92kgesj.bkt.clouddn.com/0006.png)
-[![cover](http://oo92kgesj.bkt.clouddn.com/0007.png)](http://oo92kgesj.bkt.clouddn.com/0007.png)
-[![cover](http://oo92kgesj.bkt.clouddn.com/0008.png)](http://oo92kgesj.bkt.clouddn.com/0008.png)
-[![cover](http://oo92kgesj.bkt.clouddn.com/0009.png)](http://oo92kgesj.bkt.clouddn.com/0009.png)
+| iOS            | Android       |
+| :-------------:|:-------------:|
+| ![配置](Design_Sketch/004.png)     | ![配置](Design_Sketch/000.png) |
+| ![配置](Design_Sketch/005.png)      | ![配置](Design_Sketch/001.png)      |   
+| ![配置](Design_Sketch/006.png)  | ![配置](Design_Sketch/002.png)      |   
+| ![配置](Design_Sketch/007.png)  | ![配置](Design_Sketch/003.png)     |   
 
 
 ## 第三方库

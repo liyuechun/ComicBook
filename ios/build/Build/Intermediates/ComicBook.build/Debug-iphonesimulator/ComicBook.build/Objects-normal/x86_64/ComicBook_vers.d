@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/liyuechun/Desktop/demo/ComicBook/ios/build/Build/Intermediates/ComicBook.build/Debug-iphonesimulator/ComicBook.build/DerivedSources/ComicBook_vers.c
+  /Users/liyuechun/Desktop/ComicBook/ios/build/Build/Intermediates/ComicBook.build/Debug-iphonesimulator/ComicBook.build/DerivedSources/ComicBook_vers.c

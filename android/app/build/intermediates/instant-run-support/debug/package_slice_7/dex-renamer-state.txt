@@ -1,0 +1,4 @@
+#Thu Jun 15 16:54:16 CST 2017
+base.0=/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
+renamed.0=classes.dex
+file.0=/Users/liyuechun/Desktop/ComicBook/android/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex

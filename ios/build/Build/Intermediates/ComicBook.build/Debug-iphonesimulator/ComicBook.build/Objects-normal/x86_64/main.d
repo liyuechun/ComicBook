@@ -1,3 +1,2 @@
-dependencies: \
-  /Users/liyuechun/Desktop/demo/ComicBook/ios/ComicBook/main.m \
-  /Users/liyuechun/Desktop/demo/ComicBook/ios/ComicBook/AppDelegate.h
+dependencies: /Users/liyuechun/Desktop/ComicBook/ios/ComicBook/main.m \
+  /Users/liyuechun/Desktop/ComicBook/ios/ComicBook/AppDelegate.h
